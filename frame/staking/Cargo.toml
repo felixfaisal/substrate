@@ -38,16 +38,16 @@ frame-benchmarking = { git = "https://github.com/paritytech/substrate", branch =
 rand_chacha = { version = "0.2", default-features = false, optional = true }
 
 [dev-dependencies]
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" }
-sp-core = { version = "6.0.0", path = "../../primitives/core" }
-sp-npos-elections = { version = "4.0.0-dev", path = "../../primitives/npos-elections" }
-pallet-balances = { version = "4.0.0-dev", path = "../balances" }
-pallet-timestamp = { version = "4.0.0-dev", path = "../timestamp" }
-pallet-staking-reward-curve = { version = "4.0.0-dev", path = "../staking/reward-curve" }
-pallet-bags-list = { version = "4.0.0-dev", features = ["runtime-benchmarks"], path = "../bags-list" }
-substrate-test-utils = { version = "4.0.0-dev", path = "../../test-utils" }
-frame-benchmarking = { version = "4.0.0-dev", path = "../benchmarking" }
-frame-election-provider-support = { version = "4.0.0-dev", path = "../election-provider-support" }
+sp-tracing = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+sp-npos-elections = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+pallet-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+pallet-staking-reward-curve = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+pallet-bags-list = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+substrate-test-utils = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+frame-benchmarking = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
+frame-election-provider-support = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.28", default-features = false }
 rand_chacha = { version = "0.2" }
 
 [features]
